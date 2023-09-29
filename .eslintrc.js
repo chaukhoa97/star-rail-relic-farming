@@ -8,13 +8,14 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
     'next',
     'prettier',
   ],
   rules: {
     'react/prop-types': 'off',
-    'react/no-unescaped-entities': 'off',
     'react/jsx-no-target-blank': 'off',
+    'react/no-unescaped-entities': 'off',
     'no-unused-vars': 'off',
   },
   parserOptions: {
@@ -22,4 +23,4 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-};
+}
