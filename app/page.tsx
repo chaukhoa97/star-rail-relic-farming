@@ -1,9 +1,11 @@
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/Button'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       <Button>Click me</Button>
+      <Link href="/statistics"> Statistics </Link>
     </main>
   )
 }
